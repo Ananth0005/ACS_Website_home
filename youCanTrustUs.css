@@ -1,0 +1,79 @@
+
+
+.rect {
+    position: absolute;
+    bottom: 0;
+    background-color: #4484F3;
+    width: 55px;
+    height: 2px;
+}
+
+.contact-us{
+    height: 54px;
+    width: 137px;
+    color: #ffffff;
+    background-color: #4484F3;
+    border: none;
+    border-radius: 5px;
+}
+
+.full-content {
+    background-color: #F6FBFF;
+}
+
+.heading {
+    background-color: #4484F3;
+    font-size: 30px;
+    /* padding: 30px; */
+    height: 130px;
+}
+
+.expect {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.work {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.foot-bar {
+    height: 100px;
+}
+
+.cards {
+    margin-bottom: 35px;
+}
+
+.rectangle {
+    position: absolute;
+    right: -5px;
+    top: 45px;
+}
+
+.red-bar {
+    background-color: #EB4434;
+    width: 69px;
+    height: 5px;
+}
+
+.youCanTrustUs-card {
+    background-color: #E6E6E6;
+    border: 3px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+    .rect{
+     display: none;
+    }
+    .home{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+    .nav-link.active{
+        color: gray !important; 
+    }
+   }

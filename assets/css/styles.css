@@ -1,0 +1,191 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.rect {
+    position: absolute;
+    bottom: 0;
+    background-color: #4484F3;
+    width: 55px;
+    height: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #4484F3;
+}
+
+.contact-us{
+    height: 54px;
+    width: 137px;
+    color: #ffffff;
+    background-color: #4484F3;
+    border: none;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 991px) {
+    .rect{
+     display: none;
+    }
+    .home{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+    .nav-link.active{
+        color: gray !important; 
+    }
+   }
+   /* Banner section */
+  .software {
+    color: #EB4434;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .vision {
+    color: #34AC54;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .guaranteed {
+    color: var(--acsblue, #4484F3);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  #banner .person-image {
+    width: auto;
+    height: 640px;
+  }
+  #banner h4 {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #banner .banner-section-2 {
+    padding-top: 108px;
+    height: 100%;
+    display: block;
+  }
+  #banner .H1-primary-text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #banner .book-call {
+    margin: 5px;
+    padding: 19px 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4484F3;
+  }
+  #banner .icons {
+    margin-top: 102px;
+  }
+  #banner .clock {
+    background: rgba(235, 68, 52, 0.8);
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  #banner .people {
+    background: rgba(52, 172, 84, 0.8);
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  #banner .group {
+    background: rgba(68, 132, 243, 0.8);
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  #banner h5 {
+    height: 18.88px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #banner .icons div p {
+    color: white;
+    position: absolute;
+    height: 50px;
+  }
+  #banner .icons .icon {
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .banner-section-2 {
+      text-align: center;
+    }
+    .col-8 {
+      width: 100%;
+    }
+    .banner-image {
+      width: 100%;
+    }
+    .person-image {
+      height: 643px;
+      width: 100vw !important;
+      max-width: 100%;
+      position: static !important;
+      display: block;
+      margin: 0 auto;
+    }
+    #banner .icons {
+      display: flex;
+      flex-direction: column;
+    }
+    #banner .icons .icon {
+      width: 100%;
+      margin-top: 0;
+    }
+    #banner .icons {
+      margin-top: 0px;
+    }
+  }
+  @media (max-width: 1240px) {
+    .banner-section-2 {
+      text-align: center;
+      width: 100%;
+    }
+    .banner-image {
+      width: 100%;
+    }
+    .person-image {
+      height: 643px;
+      width: 100%;
+      position: static !important;
+      display: block;
+      margin: 0 auto;
+    }
+    .icons {
+      display: flex;
+      flex-direction: column;
+    }
+    #banner .icons .icon {
+      width: 100%;
+      margin-top: 0;
+    }
+    #banner .icons {
+      margin-top: 0px;
+    }
+  }/*# sourceMappingURL=banner.css.map */

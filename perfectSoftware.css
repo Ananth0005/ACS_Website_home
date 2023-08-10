@@ -1,0 +1,80 @@
+.PerfectSoftware {
+    background-color: rgba(249, 251, 255, 1);
+    font-family: Montserrat;
+}
+
+.common-concern-text {
+    font-size: 26px;
+    font-weight: 400;
+    padding-left: 5%;
+}
+
+.common-concern-card  {
+    border-color: rgba(231, 218, 237, 1);
+    border-radius: 16px;
+}
+.common-concerns{
+    color: rgba(102, 102, 103, 1);
+
+}
+.common-concern {
+    background: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.common-concern .icon-container {
+    background: rgba(153, 153, 153, 0.60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading-text,
+.main-heading-subtext  {
+    font-size: 38px;
+    word-wrap: break-word;
+}
+.main-heading-text{
+    font-weight: 400;
+}
+.main-heading-subtext {
+    font-weight: 500;
+}
+.icon-container {
+    height: 59px;
+    width: 56px;
+    border-radius: 10px;
+}
+.common-concerns-icon{
+   size: 40px;
+}
+
+@media (max-width: 768px) {
+    .main-heading-text, .main-heading-subtext {
+        font-size: 26px;
+    }
+    .common-concern-text {
+        font-size: 20px;
+    }
+    .common-concern-card-body{
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {  
+    .common-concern-text {
+        font-size: 16px;
+    }
+    .common-concern-card-body {
+        padding: 0.5rem;
+    }
+}
+@media (max-width: 1024px) {  
+    .common-concern-text {
+        font-size: 18px;
+    }
+}
+
